@@ -35,7 +35,7 @@ function About() {
           </p>
         </div>
         <div className="h-120 overflow-hidden relative bottom-10 ">
-         <img src="./public/ankit2.png" className="w-full h-100px object-cover"></img>
+         <img src="./ankit2.png" className="w-full h-100px object-cover"></img>
         </div>
       </div>
 
