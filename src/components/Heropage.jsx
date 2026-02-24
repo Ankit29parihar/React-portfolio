@@ -1,7 +1,7 @@
 import React from "react";
 import ProfileCard from "./ProfileCard";
 import GradientText from "./React-bits-Components/GradientText";
-import Background from "./background";
+import Background from "./Background";
 import StarBorder from "./React-bits-Components/StarBorder";
 
 function Heropage() {
