@@ -3,14 +3,14 @@ import Antigravity from "./React-bits-Components/LightRays";
 
 function Background() {
 
-  const [count, setCount] = useState(200); // ✅ FIX
+  const [count, setCount] = useState(100); // ✅ FIX
 
   useEffect(() => {
     const handleResize = () => {
       if (window.innerWidth < 768) {
-        setCount(300);
+        setCount(100);
       } else {
-        setCount(200);
+        setCount(300);
       }
     };
 

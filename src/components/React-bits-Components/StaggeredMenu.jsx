@@ -418,7 +418,7 @@ export const StaggeredMenu = ({
                 ? colors.slice(0, 4)
                 : ["#1e1e22", "#35353c"];
             let arr = [...raw];
-            if (arr.length >= 3) {
+            if (arr.length >= 5) {
               const mid = Math.floor(arr.length / 2);
               arr.splice(mid, 1);
             }
@@ -445,11 +445,12 @@ export const StaggeredMenu = ({
           className="staggered-menu-header absolute top-0 left-0 w-full flex items-center justify-between p-[2em] bg-transparent pointer-events-none z-20"
           aria-label="Main navigation header"
         >
-          <div
-            className="sm-logo flex items-center select-none pointer-events-auto"
-            aria-label="Logo"
-          >
-            {/* <img
+          {
+            <div
+              className="md:block hidden flex items-center select-none pointer-events-auto"
+              aria-label="Logo"
+            >
+              {/* <img
               src={logoUrl || "/src/assets/logos/reactbits-gh-white.svg"}
               alt="Logo"
               className="sm-logo-img block h-8 w-auto object-contain"
@@ -457,7 +458,18 @@ export const StaggeredMenu = ({
               width={110}
               height={24}
             /> */}
-            <h1>hello</h1>
+              <h2 className="font-extrabold text-xl" style={{fontFamily: 'sans-serif'}}>Ankit parihar</h2>
+            </div>
+          }
+          <div className="mr-3">
+            <Magnet padding={50} disabled={false} magnetStrength={50}>
+              <a
+                src=""
+                className="border border-[#6a46ff] py-2 px-8 rounded-full"
+              >
+                Let's Talk
+              </a>
+            </Magnet>
           </div>
 
           <button
@@ -469,12 +481,6 @@ export const StaggeredMenu = ({
             onClick={toggleMenu}
             type="button"
           >
-            <div className="mr-3">
-               <Magnet padding={50} disabled={false} magnetStrength={50}>
-              <a src="" className="border border-[#6a46ff] py-2 px-8 rounded-full">Let's Talk</a>
-            </Magnet>
-            </div>
-           
             <span
               ref={textWrapRef}
               className="sm-toggle-textWrap relative inline-block h-[1em] overflow-hidden whitespace-nowrap w-[var(--sm-toggle-width,auto)] min-w-[var(--sm-toggle-width,auto)]"

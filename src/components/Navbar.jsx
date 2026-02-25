@@ -3,16 +3,17 @@ import StaggeredMenu from "./React-bits-Components/StaggeredMenu";
 
 const Navbar = () => {
   const menuItems = [
-    { label: 'Home', ariaLabel: 'Go to home page', link: '/' },
-    { label: 'About', ariaLabel: 'Learn about us', link: '/about' },
-    { label: 'Services', ariaLabel: 'View our services', link: '/services' },
-    { label: 'Contact', ariaLabel: 'Get in touch', link: '/contact' }
+    { label: 'Home', ariaLabel: 'Go to home page', link: '/#' },
+    { label: 'About', ariaLabel: 'Learn about us', link: '/#about' },
+    { label: 'Skills', ariaLabel: 'View our services', link: '/#skills' },
+    { label: 'Work', ariaLabel: 'View our services', link: '/#projects' },
+    { label: 'Contact', ariaLabel: 'Get in touch', link: '/#contact' }
   ];
 
   const socialItems = [
     { label: 'Twitter', link: 'https://twitter.com' },
-    { label: 'GitHub', link: 'https://github.com' },
-    { label: 'LinkedIn', link: 'https://linkedin.com' }
+    { label: 'GitHub', link: 'https://github.com/Ankit29parihar' },
+    { label: 'LinkedIn', link: 'https://www.linkedin.com/in/ankit-parihar29?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app' }
   ];
 
   return (

@@ -7,14 +7,14 @@ function Exprience() {
       duration: 'May 2025 - February 2026',
       role: 'Frontend Developer Intern',
       description:
-        'Developed responsive and reusable UI components using React and Tailwind CSS, integrated REST APIs, fixed frontend bugs, and optimized page performance to improve user experience.',
+        'Worked as a Frontend Developer Intern, building responsive and modern websites using HTML, CSS, JavaScript, and GSAP. Developed visually engaging UI with smooth animations and interactive effects to enhance user experience.',
     },
     {
       company: 'Marwad Tech',
-      duration: '1 Month',
+      duration: 'jun 2024 to Jul 2024',
       role: 'Software Testing',
       description:
-        'Prepared and executed test cases for web applications, identified and reported bugs with clear reproduction steps, performed regression and cross-browser testing, and collaborated with developers to ensure stable releases.',
+        'Worked as a Software Testing Intern, responsible for testing web applications to ensure functionality, performance, and reliability. Prepared and executed detailed test cases, identified bugs, and reported issues with clear reproduction steps.',
     },
   ]
 
@@ -39,7 +39,7 @@ function Exprience() {
               <h3 className="text-xl font-semibold text-[#7c7b7d]">
                 {item.company}
               </h3>
-              <p className="rounded-full border border-cyan-400/40 bg-cyan-500/10 px-3 py-1 text-sm font-medium text-cyan-200">
+              <p className="rounded-full border border-[#9479ff] bg-[#131831] px-3 py-1 text-sm font-medium text-[#9479ff]">
                 {item.duration}
               </p>
             </div>

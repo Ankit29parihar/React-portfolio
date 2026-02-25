@@ -49,7 +49,7 @@ function Contact() {
 
           <button
             type="submit"
-            className="rounded-xl bg-[#9479ff] px-6 py-3 text-sm font-semibold text-white transition hover:bg-cyan-400"
+            className="rounded-xl bg-[#9479ff] px-6 py-3 text-sm font-semibold text-white transition hover:bg-[#583ebd]"
           >
             Send Message
           </button>
@@ -62,9 +62,9 @@ function Contact() {
             </p>
             <a
               href="mailto:ankit@example.com"
-              className="mt-2 inline-block text-slate-300 hover:text-cyan-300"
+              className="mt-2 inline-block text-slate-300 hover:text-white"
             >
-              ankit@example.com
+              ankit.development2003@gmail.com
             </a>
           </div>
 
@@ -74,9 +74,9 @@ function Contact() {
             </p>
             <a
               href="tel:+910000000000"
-              className="mt-2 inline-block text-slate-300 hover:text-cyan-300"
+              className="mt-2 inline-block text-slate-300 hover:text-white"
             >
-              +91 00000 00000
+              +91 9636909723
             </a>
           </div>
 
@@ -84,7 +84,7 @@ function Contact() {
             <p className="text-sm font-semibold uppercase tracking-wide text-[#9479ff]">
               Location
             </p>
-            <p className="mt-2 text-slate-300">Indore</p>
+            <p className="mt-2 text-slate-300">Ahmedabad, Paldi</p>
           </div>
 
           <div>
@@ -92,10 +92,10 @@ function Contact() {
               Social Links
             </p>
             <div className="mt-2 flex gap-4">
-              <a href="#" className="text-slate-300 hover:text-cyan-300">
+              <a href="https://www.linkedin.com/in/ankit-parihar29?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app" className="text-slate-300 hover:text-white">
                 LinkedIn
               </a>
-              <a href="#" className="text-slate-300 hover:text-cyan-300">
+              <a href="https://github.com/Ankit29parihar" className="text-slate-300 hover:text-white">
                 GitHub
               </a>
             </div>

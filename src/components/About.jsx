@@ -3,8 +3,8 @@ import React from "react";
 function About() {
   return (
     <section id="about" className="mx-auto w-full max-w-6xl px-6 py-20">
-      <div className="mb-10 grid grid-cols-2">
-        <div className="">
+      <div className="mb-10  grid md:grid-cols-2 grid-cols-1">
+        <div className="order-2 md:order-1">
           <p className="text-sm font-semibold uppercase tracking-[0.28em] text-[#9479ff]">
             About Me
           </p>
@@ -34,7 +34,7 @@ function About() {
             </span>
           </p>
         </div>
-        <div className="h-120 overflow-hidden relative bottom-10 ">
+        <div className="md:h-120 h-90 overflow-hidden relative bottom-10 order-1 md:order-2">
          <img src="./ankit2.png" className="w-full h-100px object-cover"></img>
         </div>
       </div>

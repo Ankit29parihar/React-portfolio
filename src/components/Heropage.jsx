@@ -37,17 +37,17 @@ function Heropage() {
             and smooth user experience.
           </p>
 
-          <div className="flex flex-wrap gap-4 pt-2">
+          <div className="flex flex-wrap gap-4 pt-2 ">
             <a
-              href="#projects"
-              className="rounded-xl bg-[#5227FF] px-6 py-3 font-semibold text-white transition hover:bg-[#6A46FF]"
+              href="/#projects"
+              className="rounded-xl bg-[#5227FF] px-6 py-3 font-semibold text-white transition hover:bg-[#6A46FF] z-999"
             >
               View Projects
             </a>
 
             <a
-              href="#contact"
-              className="rounded-xl border border-[#5227FF] px-6 py-3 font-semibold text-[#B19EEF] transition hover:bg-[#5227FF] hover:text-white"
+              href="/#contact"
+              className="rounded-xl border border-[#5227FF] px-6 py-3 font-semibold text-[#B19EEF] transition hover:bg-[#5227FF] hover:text-white z-999"
             >
               Contact Me
             </a>
