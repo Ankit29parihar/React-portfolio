@@ -7,7 +7,7 @@ function Exprience() {
       duration: 'May 2025 - February 2026',
       role: 'Frontend Developer Intern',
       description:
-        'Worked as a Frontend Developer Intern, building responsive and modern websites using HTML, CSS, JavaScript, and GSAP. Developed visually engaging UI with smooth animations and interactive effects to enhance user experience.',
+        'Worked on building responsive and modern websites using HTML, CSS, JavaScript, and GSAP. Designed visually engaging user interfaces with smooth animations and interactive effects to enhance user experience. Also developed and customized websites using WordPress and Elementor, focusing on layout design, UI structure, and performance optimization.',
     },
     {
       company: 'Marwad Tech',
