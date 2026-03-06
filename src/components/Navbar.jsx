@@ -17,7 +17,7 @@ const Navbar = () => {
   ];
 
   return (
-    <div className="h-20 w-full  bg-[#020618] fixed z-9">
+    <div className="h-20 w-full  bg-[#020618] fixed z-999">
          <StaggeredMenu
       position="right"
       items={menuItems}
