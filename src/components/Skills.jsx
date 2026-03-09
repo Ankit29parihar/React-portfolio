@@ -15,13 +15,7 @@ const skills = [
     glow: "shadow-[0_10px_30px_rgba(59,130,246,0.18)]",
     badge: "bg-blue-500/15 text-blue-300",
   },
-  {
-    name: "SASS",
-    logo: "",
-    short: "S",
-    glow: "shadow-[0_10px_30px_rgba(236,72,153,0.18)]",
-    badge: "bg-pink-500/15 text-pink-300",
-  },
+
   {
     name: "JAVASCRIPT",
     logo: "/skillsLogos/icons8-javascript.svg",
@@ -29,7 +23,7 @@ const skills = [
     glow: "shadow-[0_10px_30px_rgba(250,204,21,0.16)]",
     badge: "bg-yellow-400/15 text-yellow-300",
   },
-  {
+ {
     name: "REACT JS",
     logo: "/skillsLogos/programing.png",
     short: "R",
@@ -37,40 +31,68 @@ const skills = [
     badge: "bg-cyan-400/15 text-cyan-300",
   },
   {
-    name: "GITHUB",
-    logo: "/skillsLogos/github-svgrepo-com.svg",
-    short: "GH",
-    glow: "shadow-[0_10px_30px_rgba(148,163,184,0.2)]",
-    badge: "bg-slate-400/15 text-slate-200",
+    name: "Tailwind CSS",
+    logo: "/skillsLogos/tailwind-css-svgrepo-com (2).svg",
+    short: "T",
+    glow: "shadow-[0_10px_30px_rgba(236,72,153,0.18)]",
+    badge: "bg-pink-500/15 text-pink-300",
   },
+
   {
+    name: "Bootstrap",
+    logo: "/skillsLogos/icons8-bootstrap.svg",
+    short: "S",
+    glow: "shadow-[0_10px_30px_rgba(236,72,153,0.18)]",
+    badge: "bg-pink-500/15 text-pink-300",
+  },
+
+    {
     name: "NODE JS",
-    logo: "",
+    logo: "/skillsLogos/nodejs-icon-svgrepo-com.svg",
     short: "N",
     glow: "shadow-[0_10px_30px_rgba(74,222,128,0.16)]",
     badge: "bg-green-400/15 text-green-300",
   },
+
+    {
+    name: "Express Js",
+    logo: "/skillsLogos/icons8-express-js.svg",
+    short: "E",
+    glow: "shadow-[0_10px_30px_rgba(74,222,128,0.16)]",
+    badge: "bg-green-400/15 text-green-300",
+  },
+
+    {
+    name: "MySQL",
+    logo: "/skillsLogos/mysql-logo-svgrepo-com (1).svg",
+    short: "SQL",
+    glow: "shadow-[0_10px_30px_rgba(74,222,128,0.16)]",
+    badge: "bg-green-400/15 text-green-300",
+  },
+
   {
-    name: "FIREBASE",
-    logo: "",
-    short: "F",
+    name: "GIT",
+    logo: "https://git-scm.com/images/logos/downloads/Git-Icon-1788C.svg",
+    short: "Gi",
+    glow: "shadow-[0_10px_30px_rgba(148,163,184,0.2)]",
+    badge: "bg-slate-400/15 text-slate-200",
+  },
+  {
+    name: "GITHUB",
+    logo: "/skillsLogos/icons8-github-60.svg",
+    short: "GH",
+    glow: "shadow-[0_10px_30px_rgba(148,163,184,0.2)]",
+    badge: "bg-slate-400/15 text-slate-200",
+  },
+
+  {
+    name: "Wrodpress",
+    logo: "/skillsLogos/wordpress-tile.svg",
+    short: "W",
     glow: "shadow-[0_10px_30px_rgba(250,204,21,0.16)]",
     badge: "bg-amber-400/15 text-amber-300",
   },
-  {
-    name: "MONGODB",
-    logo: "",
-    short: "M",
-    glow: "shadow-[0_10px_30px_rgba(74,222,128,0.16)]",
-    badge: "bg-emerald-400/15 text-emerald-300",
-  },
-  {
-    name: "DOCKER",
-    logo: "",
-    short: "D",
-    glow: "shadow-[0_10px_30px_rgba(56,189,248,0.16)]",
-    badge: "bg-sky-400/15 text-sky-300",
-  },
+ 
 ];
 
 function Skills() {
@@ -84,7 +106,7 @@ function Skills() {
           Technologies I Work With
         </h2>
 
-        <div className="mt-12 grid grid-cols-2 gap-4 sm:grid-cols-3 md:grid-cols-4 lg:grid-cols-5">
+        <div className="mt-12 grid grid-cols-2 gap-4 sm:grid-cols-3 md:grid-cols-4 lg:grid-cols-4">
           {skills.map((skill) => (
             <div
               key={skill.name}

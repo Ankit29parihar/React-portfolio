@@ -5,8 +5,8 @@ function Projects() {
     {
       name: "Hotel Website",
       description:
-        "A responsive weather application using OpenWeather REST API with city-based forecast search.",
-      tech: ["React", "API Integration", "CSS"],
+        "Designed and developed a responsive hotel website showcasing rooms, services, and booking options.",
+      tech: ["HTML, CSS, JavaScript,Tailwind CSS, GSAP"],
       liveLink: "https://hotelbhagyalaxmiabu.com/",
       githubLink: "https://github.com/Ankit29parihar/Hotel-bhagyalaxmi",
       screenshot:"./Projects/bhagyalaxmi.png",
@@ -14,17 +14,17 @@ function Projects() {
     {
       name: "Gallery Project",
       description:
-        "A full-stack MERN application with authentication, product management, and admin panel features.",
-      tech: ["React", "Node.js", "Express", "MongoDB"],
+        "Developed an image gallery using API-based data fetching Implemented pagination to load images page-by-page for better performance.",
+      tech: ["React, REST API, Tailwind CSS"],
       liveLink: "https://gallery-application-roan.vercel.app/",
       githubLink: "https://github.com/Ankit29parihar/gallery-application",
       screenshot: "./Projects/gallery.png",
     },
     {
-      name: "Portfolio Website",
+      name: "Notepad",
       description:
-        "A personal portfolio website to showcase my profile, skills, and projects with a clean UI.",
-      tech: ["React", "Tailwind CSS", "JavaScript"],
+        "Built a Notes Application with a clean and intuitive user interface that enables users to create, read, update, and delete notes efficiently. Designed for a smooth and simple note-taking experience.",
+      tech: ["React", "Tailwind CSS", "API(Lorem Picsum)"],
       liveLink: "https://snapnotes-phi.vercel.app/",
       githubLink: "https://github.com/Ankit29parihar/React-notepad",
       screenshot:

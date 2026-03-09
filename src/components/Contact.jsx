@@ -21,7 +21,7 @@ function Contact() {
             <input
               type="text"
               placeholder="Your name"
-              className="w-full rounded-xl border border-slate-700 bg-slate-950 px-4 py-3 text-sm text-white outline-none transition focus:border-cyan-400"
+              className="w-full rounded-xl border border-slate-700 bg-slate-950 px-4 py-3 text-sm text-white outline-none transition focus:border-cyan-400" required
             />
           </label>
 
@@ -32,7 +32,7 @@ function Contact() {
             <input
               type="email"
               placeholder="your@email.com"
-              className="w-full rounded-xl border border-slate-700 bg-slate-950 px-4 py-3 text-sm text-white outline-none transition focus:border-cyan-400"
+              className="w-full rounded-xl border border-slate-700 bg-slate-950 px-4 py-3 text-sm text-white outline-none transition focus:border-cyan-400" required
             />
           </label>
 
@@ -43,7 +43,7 @@ function Contact() {
             <textarea
               rows="5"
               placeholder="Write your message..."
-              className="w-full rounded-xl border border-slate-700 bg-slate-950 px-4 py-3 text-sm text-white outline-none transition focus:border-cyan-400"
+              className="w-full rounded-xl border border-slate-700 bg-slate-950 px-4 py-3 text-sm text-white outline-none transition focus:border-cyan-400" required
             />
           </label>
 
