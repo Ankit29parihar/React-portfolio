@@ -1,4 +1,6 @@
 import React from "react";
+import SkillLoop from "./SkillLoop"
+
 
 function About() {
   return (
@@ -39,6 +41,7 @@ function About() {
         </div>
       </div>
 
+      {/* <SkillLoop /> */}
       {/* <div className="grid gap-6 md:grid-cols-2">
         <article className="rounded-2xl border border-slate-800 bg-slate-900/60 p-6">
           <h3 className="text-xl font-semibold text-cyan-300">Education</h3>

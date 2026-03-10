@@ -1,5 +1,6 @@
 import React from "react";
 
+
 const skills = [
   {
     name: "HTML",
@@ -25,7 +26,7 @@ const skills = [
   },
  {
     name: "REACT JS",
-    logo: "/skillsLogos/programing.png",
+    logo: "/skillsLogos/react-svgrepo-com.svg",
     short: "R",
     glow: "shadow-[0_10px_30px_rgba(34,211,238,0.18)]",
     badge: "bg-cyan-400/15 text-cyan-300",
@@ -130,6 +131,7 @@ function Skills() {
             </div>
           ))}
         </div>
+
       </div>
     </section>
   );

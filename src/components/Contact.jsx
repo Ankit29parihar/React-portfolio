@@ -73,7 +73,7 @@ function Contact() {
               Phone
             </p>
             <a
-              href="tel:+910000000000"
+              href="tel:+919636909723"
               className="mt-2 inline-block text-slate-300 hover:text-white"
             >
               +91 9636909723
@@ -98,6 +98,16 @@ function Contact() {
               <a href="https://github.com/Ankit29parihar" className="text-slate-300 hover:text-white">
                 GitHub
               </a>
+
+  <a
+    href="https://wa.me/919636909723"
+    target="_blank"
+    rel="noopener noreferrer"
+    className="flex items-center gap-2 text-green-400 hover:text-green-300"
+  >
+    <i className="ri-whatsapp-line text-lg"></i>
+    WhatsApp
+  </a>
             </div>
           </div>
         </div>
